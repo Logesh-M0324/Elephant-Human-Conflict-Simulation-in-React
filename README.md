@@ -1,28 +1,12 @@
-Title:
-Elephant–Human Conflict Simulation in React
+# React + Vite
 
-Description:
-This project is a 3D interactive simulation built using React that demonstrates an elephant–human conflict prevention concept. The model shows an elephant emerging from the forest and approaching a human settlement. As it nears the community, a simulated sensor system activates—triggering blinking alerts and bee sounds—prompting the elephant to retreat back into the forest.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features:
+Currently, two official plugins are available:
 
-3D environment showcasing forest and human community scenes.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Elephant movement simulation toward the community.
+## Expanding the ESLint configuration
 
-Sensor detection when the elephant reaches the danger zone.
-
-Visual alert (blinking) and audio cue (bee buzzing) to repel the elephant.
-
-Elephant returns safely to the forest after detection.
-
-Use Case:
-This project serves as a proof of concept for wildlife conservation technology, focusing on human–elephant conflict mitigation through early detection and non-lethal deterrents.
-
-Tech Stack:
-
-React – Frontend framework.
-
-Three.js / React Three Fiber – For 3D model rendering and animations.
-
-JavaScript – Core logic.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
